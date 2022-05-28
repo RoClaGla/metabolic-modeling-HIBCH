@@ -28,7 +28,7 @@ rawModKD = changeRxnBounds(rawModKD, 'HMR_3755', 1000*(1-down), 'u');
 %rawModKU = changeRxnBounds(rawModKU, 'HMR_3755', 1000*(1+up), 'u');
 
 % Objectives (picked by HIBCH_KD_full)
-objRxns = importdata('rxnsData\ObjRxns.txt');
+objRxns = importdata('ObjRxns.txt');
 objInds = objRxns.data;
 objRxnNames = objRxns.textdata;
 
@@ -36,12 +36,12 @@ objRxnNames = objRxns.textdata;
 % first column -- indices in terms of iHepatocytes model
 % second       -- indices in terms of the uptake reactions index in
 %                 the exchange reaction indicies
-activeUptakeRxns = importdata('rxnsData\ActiveUptakeRxns.txt');
+activeUptakeRxns = importdata('ActiveUptakeRxns.txt');
 activeUptakeRxnInds = activeUptakeRxns.data(:,1);
 activeUptakeRxnNames = activeUptakeRxns.textdata;
 
 % All exchange reactions (among which are medium components)
-exchRxns  = importdata('rxnsData\ExchRxns.txt');
+exchRxns  = importdata('ExchRxns.txt');
 exchRxnInds  = exchRxns.data;
 exchRxnNames = exchRxns.textdata;
 
