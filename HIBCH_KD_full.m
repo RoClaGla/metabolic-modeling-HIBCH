@@ -31,12 +31,12 @@ rawModKD = changeRxnBounds(rawModKD, 'HMR_3755', 1000*(1-down), 'u');
 % first column -- indices in terms of iHepatocytes model
 % second       -- indices in terms of the uptake reactions index in
 %                 the exchange reaction indicies
-activeUptakeRxns = importdata('rxnsData\ActiveUptakeRxns.txt');
+activeUptakeRxns = importdata('ActiveUptakeRxns.txt');
 activeUptakeRxnInds = activeUptakeRxns.data(:,1);
 activeUptakeRxnNames = activeUptakeRxns.textdata;
 
 % All exchange reactions (among which are medium components)
-exchRxns  = importdata('rxnsData\ExchRxns.txt');
+exchRxns  = importdata('ExchRxns.txt');
 exchRxnInds  = exchRxns.data;
 exchRxnNames = exchRxns.textdata;
 
@@ -247,7 +247,7 @@ end
 orderedObjValueKD_raw;
 orderedObjIndexKDo_raw;
 
-fID = fopen('rxnsData\ObjRxns.txt','w');
+fID = fopen('ObjRxns.txt','w');
 for i=1:length(orderedObjIndexKD)
     formatspec = '%s, %s\n';
     fprintf(fID, formatspec, [string(model.rxns(orderedObjIndexKD(i))), orderedObjIndexKD(i) ]);
