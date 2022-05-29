@@ -1,7 +1,7 @@
 % Uncomment first run
-%initCobraToolbox();
-%changeCobraSolver('mosek','all');
-%loadMod = readCbModel('iHepatocytes2322.xml');
+initCobraToolbox();
+changeCobraSolver('mosek','all');
+loadMod = readCbModel('iHepatocytes2322.xml');
 model = loadMod;
 
 % All units are mmol/gDW/h, millimoles per gram dry weight per hour
