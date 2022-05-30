@@ -197,7 +197,7 @@ end
 orderedObjValueKD_raw;
 orderedObjIndexKDo_raw;
 
-# Print reaction names and model indices of reactions that changed by HIBCH knock down
+% Print reaction names and model indices of reactions that changed by HIBCH knock down
 fID = fopen('ObjRxns.txt','w');
 for i=1:length(orderedObjIndexKD)
     formatspec = '%s, %s\n';
