@@ -1,9 +1,9 @@
 # metabolic-modeling-HIBCH
 Perform FBA on human hepatocytes (liver cells) after HIBCH gene knock down.
 
-Build: MATLAB R2018a with Cobra Toolbox
+Build: MATLAB R2018a with Cobra Toolbox, and MOSEK 9.3
 
-Requires: MATLAB, Cobra Toolbox (https://opencobra.github.io/cobratoolbox/stable/index.html)
+Requires: MATLAB, Cobra Toolbox (https://opencobra.github.io/cobratoolbox/stable/index.html), MOSEK 9.3 (https://docs.mosek.com/latest/releasenotes/index.html)
 
 Model: iHepatocytes2322 https://www.ebi.ac.uk/biomodels/model/download/MODEL1402200003.3?filename=MODEL1402200003_url.xml
 
