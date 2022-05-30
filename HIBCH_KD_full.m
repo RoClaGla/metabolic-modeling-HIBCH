@@ -1,11 +1,11 @@
-# Performs FBA on the full liver cell model, i.e., maximizes flux through a given reaction for all 7,930 reactions, with and without HIBCH knock down.
-# FBA is performed with and without a medium, the latter of which is termed a raw model.
+% Performs FBA on the full liver cell model, i.e., maximizes flux through a given reaction for all 7,930 reactions, with and without HIBCH knock down.
+% FBA is performed with and without a medium, the latter of which is termed a raw model.
 
 % Uncomment first run
 initCobraToolbox();
 changeCobraSolver('mosek','all');
 loadMod = readCbModel('iHepatocytes2322.xml');
-# Just a copy
+% Just a copy
 model = loadMod;
 
 % All units are mmol/gDW/h, millimoles per gram dry weight per hour
