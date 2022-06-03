@@ -23,6 +23,6 @@ Model iHepatocytes2322 https://www.ebi.ac.uk/biomodels/model/download/MODEL14022
 
 Additional files
 ====
-* ObjRxns.txt: output from HIBCH_KD_full.m
-* ExchRxns.txt: uptake reactions in the model (manually curated)
-* ActiveUptakeRxns.txt: active uptake reactions (simulating a medium)
+* `ObjRxns.txt` is output from `HIBCH_KD_full.m` listing the reactions that were affected by HIBCH knock down
+* `ExchRxns.txt` are the uptake reactions in the model (manually curated)
+* `ActiveUptakeRxns.txt` are the active uptake reactions (simulating a medium)
