@@ -18,8 +18,9 @@ Code
 * `HIBCH_KD_full.m` knocks down HIBCH related reactions and performs FBA on the full model
 * `HIBCH_KD_obj.m` knocks down HIBCH related reactions and performs FBA on the reactions output by `HIBCH_KD_full.m`
 
-Model iHepatocytes2322 https://www.ebi.ac.uk/biomodels/model/download/MODEL1402200003.3?filename=MODEL1402200003_url.xml
+Model
 ====
+iHepatocytes2322 https://www.ebi.ac.uk/biomodels/model/download/MODEL1402200003.3?filename=MODEL1402200003_url.xml
 
 Additional files
 ====
