@@ -3,7 +3,7 @@ Perform FBA on human hepatocytes (liver cells) after HIBCH gene knock down.
 
 Requirements
 ====
-Bash for wrapper scripts, `MATLAB` with `Mosek 9.3` and `Cobra toolbox'
+Bash for wrapper scripts, `MATLAB` with `Mosek 9.3` and `Cobra toolbox`
 * Cobra Toolbox (https://opencobra.github.io/cobratoolbox/stable/index.html)
 *  MOSEK 9.3 (https://docs.mosek.com/latest/releasenotes/index.html)
 
